@@ -1,0 +1,611 @@
+EESchema Schematic File Version 2
+LIBS:BatteryTester-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:BatteryTester-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Battery tester  Arduino Shield"
+Date "Freitag, 30. Jänner 2015"
+Rev ""
+Comp "http://www.designer2k2.at"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ARDUINO_SHIELD SHIELD1
+U 1 1 54CBA4BC
+P 3400 4300
+F 0 "SHIELD1" H 2950 5450 60  0000 C CNN
+F 1 "ARDUINO_SHIELD" H 3450 3350 60  0000 C CNN
+F 2 "FT:ARDUINO_SHIELD" H 3400 4100 50  0001 C CNN
+F 3 "" H 3400 4300 60  0000 C CNN
+	1    3400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R6
+U 1 1 54CBA6F9
+P 7700 2000
+F 0 "R6" V 7780 2000 40  0000 C CNN
+F 1 "3.9" V 7707 2001 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Cement_Vertical_LargePads_KOA-BGR-5N-7N" V 7630 2000 30  0001 C CNN
+F 3 "" H 7700 2000 30  0000 C CNN
+	1    7700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R8
+U 1 1 54CBA74A
+P 8450 2000
+F 0 "R8" V 8530 2000 40  0000 C CNN
+F 1 "3.9" V 8457 2001 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Cement_Vertical_LargePads_KOA-BGR-5N-7N" V 8380 2000 30  0001 C CNN
+F 3 "" H 8450 2000 30  0000 C CNN
+	1    8450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R10
+U 1 1 54CBA867
+P 9150 2000
+F 0 "R10" V 9230 2000 40  0000 C CNN
+F 1 "3.9" V 9157 2001 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Cement_Vertical_LargePads_KOA-BGR-5N-7N" V 9080 2000 30  0001 C CNN
+F 3 "" H 9150 2000 30  0000 C CNN
+	1    9150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R4
+U 1 1 54CBA8AA
+P 6850 2000
+F 0 "R4" V 6930 2000 40  0000 C CNN
+F 1 "3.9" V 6857 2001 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Cement_Vertical_LargePads_KOA-BGR-5N-7N" V 6780 2000 30  0001 C CNN
+F 3 "" H 6850 2000 30  0000 C CNN
+	1    6850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_N Q1
+U 1 1 54D12510
+P 6750 2800
+F 0 "Q1" H 6760 2970 60  0000 R CNN
+F 1 "MOSFET_N" H 6760 2650 60  0000 R CNN
+F 2 "Transistors_TO-220:TO-220_FET-GDS_Vertical" H 6750 2800 60  0001 C CNN
+F 3 "" H 6750 2800 60  0000 C CNN
+	1    6750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_N Q2
+U 1 1 54D1253F
+P 7600 2800
+F 0 "Q2" H 7610 2970 60  0000 R CNN
+F 1 "MOSFET_N" H 7610 2650 60  0000 R CNN
+F 2 "Transistors_TO-220:TO-220_FET-GDS_Vertical" H 7600 2800 60  0001 C CNN
+F 3 "" H 7600 2800 60  0000 C CNN
+	1    7600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_N Q3
+U 1 1 54D1258E
+P 8350 2800
+F 0 "Q3" H 8360 2970 60  0000 R CNN
+F 1 "MOSFET_N" H 8360 2650 60  0000 R CNN
+F 2 "Transistors_TO-220:TO-220_FET-GDS_Vertical" H 8350 2800 60  0001 C CNN
+F 3 "" H 8350 2800 60  0000 C CNN
+	1    8350 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_N Q4
+U 1 1 54D125ED
+P 9050 2800
+F 0 "Q4" H 9060 2970 60  0000 R CNN
+F 1 "MOSFET_N" H 9060 2650 60  0000 R CNN
+F 2 "Transistors_TO-220:TO-220_FET-GDS_Vertical" H 9050 2800 60  0001 C CNN
+F 3 "" H 9050 2800 60  0000 C CNN
+	1    9050 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-BatteryTester #PWR01
+U 1 1 54D1298B
+P 8050 4150
+F 0 "#PWR01" H 8050 4150 30  0001 C CNN
+F 1 "GND" H 8050 4080 30  0001 C CNN
+F 2 "" H 8050 4150 60  0000 C CNN
+F 3 "" H 8050 4150 60  0000 C CNN
+	1    8050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X02 P1
+U 1 1 54D12A9B
+P 10200 2050
+F 0 "P1" H 10200 2200 50  0000 C CNN
+F 1 "CONN_01X02" V 10300 2050 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_2pol" H 10200 2050 60  0001 C CNN
+F 3 "" H 10200 2050 60  0000 C CNN
+	1    10200 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R3
+U 1 1 54D12C43
+P 6250 3350
+F 0 "R3" V 6330 3350 40  0000 C CNN
+F 1 "100k" V 6257 3351 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6180 3350 30  0001 C CNN
+F 3 "" H 6250 3350 30  0000 C CNN
+	1    6250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R5
+U 1 1 54D12C90
+P 7250 3400
+F 0 "R5" V 7330 3400 40  0000 C CNN
+F 1 "100k" V 7257 3401 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7180 3400 30  0001 C CNN
+F 3 "" H 7250 3400 30  0000 C CNN
+	1    7250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R7
+U 1 1 54D12CB1
+P 8000 3400
+F 0 "R7" V 8080 3400 40  0000 C CNN
+F 1 "100k" V 8007 3401 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7930 3400 30  0001 C CNN
+F 3 "" H 8000 3400 30  0000 C CNN
+	1    8000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R9
+U 1 1 54D12CDA
+P 8700 3400
+F 0 "R9" V 8780 3400 40  0000 C CNN
+F 1 "100k" V 8707 3401 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8630 3400 30  0001 C CNN
+F 3 "" H 8700 3400 30  0000 C CNN
+	1    8700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-BatteryTester #PWR02
+U 1 1 54D132F3
+P 1750 4500
+F 0 "#PWR02" H 1750 4500 30  0001 C CNN
+F 1 "GND" H 1750 4430 30  0001 C CNN
+F 2 "" H 1750 4500 60  0000 C CNN
+F 3 "" H 1750 4500 60  0000 C CNN
+	1    1750 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R1
+U 1 1 54D13A9B
+P 2800 1550
+F 0 "R1" V 2880 1550 40  0000 C CNN
+F 1 "10k" V 2807 1551 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2730 1550 30  0001 C CNN
+F 3 "" H 2800 1550 30  0000 C CNN
+	1    2800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R2
+U 1 1 54D13B2C
+P 2800 2250
+F 0 "R2" V 2880 2250 40  0000 C CNN
+F 1 "5k" V 2807 2251 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2730 2250 30  0001 C CNN
+F 3 "" H 2800 2250 30  0000 C CNN
+	1    2800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-BatteryTester #PWR03
+U 1 1 54D13C0A
+P 2800 2650
+F 0 "#PWR03" H 2800 2650 30  0001 C CNN
+F 1 "GND" H 2800 2580 30  0001 C CNN
+F 2 "" H 2800 2650 60  0000 C CNN
+F 3 "" H 2800 2650 60  0000 C CNN
+	1    2800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR04
+U 1 1 54D13CBD
+P 1750 3950
+F 0 "#PWR04" H 1750 4040 20  0001 C CNN
+F 1 "+5V" H 1750 4040 30  0000 C CNN
+F 2 "" H 1750 3950 60  0000 C CNN
+F 3 "" H 1750 3950 60  0000 C CNN
+	1    1750 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 54D14562
+P 2350 1500
+F 0 "D1" H 2350 1600 40  0000 C CNN
+F 1 "DIODE" H 2350 1400 40  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 2350 1500 60  0001 C CNN
+F 3 "" H 2350 1500 60  0000 C CNN
+	1    2350 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR05
+U 1 1 54D14673
+P 2350 1100
+F 0 "#PWR05" H 2350 1190 20  0001 C CNN
+F 1 "+5V" H 2350 1190 30  0000 C CNN
+F 2 "" H 2350 1100 60  0000 C CNN
+F 3 "" H 2350 1100 60  0000 C CNN
+	1    2350 1100
+	1    0    0    -1  
+$EndComp
+Text Notes 6000 800  0    118  ~ 0
+3.9Ohm 25W for 1S or 100W for 3S Lipo Measurement
+$Comp
+L CONN_01X04 P2
+U 1 1 54D5361A
+P 10250 5400
+F 0 "P2" H 10250 5650 50  0000 C CNN
+F 1 "CONN_01X04" V 10350 5400 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MPT-2.54mm_4pol" H 10250 5400 60  0001 C CNN
+F 3 "" H 10250 5400 60  0000 C CNN
+	1    10250 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R11
+U 1 1 54D54C2A
+P 2750 6050
+F 0 "R11" V 2830 6050 40  0000 C CNN
+F 1 "10k" V 2757 6051 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2680 6050 30  0001 C CNN
+F 3 "" H 2750 6050 30  0000 C CNN
+	1    2750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R12
+U 1 1 54D54CB1
+P 2750 6850
+F 0 "R12" V 2830 6850 40  0000 C CNN
+F 1 "10k" V 2757 6851 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2680 6850 30  0001 C CNN
+F 3 "" H 2750 6850 30  0000 C CNN
+	1    2750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R13
+U 1 1 54D54CCE
+P 3800 6050
+F 0 "R13" V 3880 6050 40  0000 C CNN
+F 1 "10k" V 3807 6051 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3730 6050 30  0001 C CNN
+F 3 "" H 3800 6050 30  0000 C CNN
+	1    3800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-BatteryTester R14
+U 1 1 54D54CE9
+P 3800 6850
+F 0 "R14" V 3880 6850 40  0000 C CNN
+F 1 "10k" V 3807 6851 40  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 3730 6850 30  0001 C CNN
+F 3 "" H 3800 6850 30  0000 C CNN
+	1    3800 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-BatteryTester #PWR06
+U 1 1 54D54E7A
+P 2750 7350
+F 0 "#PWR06" H 2750 7350 30  0001 C CNN
+F 1 "GND" H 2750 7280 30  0001 C CNN
+F 2 "" H 2750 7350 60  0000 C CNN
+F 3 "" H 2750 7350 60  0000 C CNN
+	1    2750 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-BatteryTester #PWR07
+U 1 1 54D54E8E
+P 3800 7350
+F 0 "#PWR07" H 3800 7350 30  0001 C CNN
+F 1 "GND" H 3800 7280 30  0001 C CNN
+F 2 "" H 3800 7350 60  0000 C CNN
+F 3 "" H 3800 7350 60  0000 C CNN
+	1    3800 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3000 6850 3800
+Wire Wire Line
+	6250 3800 10000 3800
+Wire Wire Line
+	7700 3000 7700 3800
+Wire Wire Line
+	8450 3000 8450 3800
+Connection ~ 7700 3800
+Wire Wire Line
+	9150 3000 9150 3800
+Connection ~ 8450 3800
+Wire Wire Line
+	6850 2600 6850 2250
+Wire Wire Line
+	7700 2600 7700 2250
+Wire Wire Line
+	8450 2600 8450 2250
+Wire Wire Line
+	9150 2600 9150 2250
+Wire Wire Line
+	8050 4150 8050 3800
+Connection ~ 8050 3800
+Wire Wire Line
+	6850 1750 6850 1050
+Wire Wire Line
+	2800 1050 10000 1050
+Wire Wire Line
+	7700 1050 7700 1750
+Wire Wire Line
+	8450 1050 8450 1750
+Connection ~ 7700 1050
+Wire Wire Line
+	9150 1050 9150 1750
+Connection ~ 8450 1050
+Wire Wire Line
+	10000 3800 10000 2100
+Connection ~ 9150 3800
+Wire Wire Line
+	10000 1050 10000 2000
+Connection ~ 9150 1050
+Wire Wire Line
+	6250 3800 6250 3600
+Connection ~ 6850 3800
+Wire Wire Line
+	7250 3650 7250 3800
+Connection ~ 7250 3800
+Wire Wire Line
+	8000 3650 8000 3800
+Connection ~ 8000 3800
+Wire Wire Line
+	8700 3650 8700 3800
+Connection ~ 8700 3800
+Wire Wire Line
+	8700 3150 8700 2800
+Wire Wire Line
+	8600 2800 8850 2800
+Wire Wire Line
+	8000 3150 8000 2800
+Wire Wire Line
+	7850 2800 8150 2800
+Wire Wire Line
+	7250 3150 7250 2800
+Wire Wire Line
+	7100 2800 7400 2800
+Wire Wire Line
+	6250 3100 6250 2800
+Wire Wire Line
+	5750 2800 6550 2800
+Wire Wire Line
+	4350 4400 5750 4400
+Wire Wire Line
+	5750 4400 5750 2800
+Connection ~ 6250 2800
+Wire Wire Line
+	4350 4500 7100 4500
+Wire Wire Line
+	7100 4500 7100 2800
+Connection ~ 7250 2800
+Wire Wire Line
+	4350 4600 7850 4600
+Wire Wire Line
+	7850 4600 7850 2800
+Connection ~ 8000 2800
+Wire Wire Line
+	4350 4700 8600 4700
+Wire Wire Line
+	8600 4700 8600 2800
+Connection ~ 8700 2800
+Wire Wire Line
+	1750 4300 1750 4500
+Wire Wire Line
+	1750 4300 2450 4300
+Wire Wire Line
+	2450 4200 2300 4200
+Wire Wire Line
+	2300 4200 2300 4300
+Connection ~ 2300 4300
+Wire Wire Line
+	2800 1050 2800 1300
+Connection ~ 6850 1050
+Wire Wire Line
+	2800 1800 2800 2000
+Wire Wire Line
+	2800 2650 2800 2500
+Wire Wire Line
+	2450 4600 2100 4600
+Wire Wire Line
+	2100 4600 2100 1900
+Wire Wire Line
+	2100 1900 2800 1900
+Connection ~ 2800 1900
+Wire Wire Line
+	2450 4100 1750 4100
+Wire Wire Line
+	1750 4100 1750 3950
+Wire Wire Line
+	2350 1700 2350 2050
+Connection ~ 2350 1900
+Wire Wire Line
+	2350 1300 2350 1100
+Wire Wire Line
+	10050 5250 9750 5250
+Wire Wire Line
+	9750 5250 9750 1050
+Connection ~ 9750 1050
+Wire Wire Line
+	10050 5550 9600 5550
+Wire Wire Line
+	9600 5550 9600 3800
+Connection ~ 9600 3800
+Wire Wire Line
+	10050 5350 2750 5350
+Wire Wire Line
+	2750 5350 2750 5800
+Wire Wire Line
+	10050 5450 3800 5450
+Wire Wire Line
+	3800 5450 3800 5800
+Wire Wire Line
+	3800 7350 3800 7100
+Wire Wire Line
+	3800 6300 3800 6600
+Wire Wire Line
+	2750 6300 2750 6600
+Wire Wire Line
+	2750 7100 2750 7350
+Connection ~ 3800 6500
+Wire Wire Line
+	2100 4700 2450 4700
+Wire Wire Line
+	2100 6500 2100 4700
+Wire Wire Line
+	3800 6500 2100 6500
+Connection ~ 2750 6400
+Wire Wire Line
+	2250 4800 2450 4800
+Wire Wire Line
+	2250 6400 2250 4800
+Wire Wire Line
+	2750 6400 2250 6400
+$Comp
+L DIODE D3
+U 1 1 54D56CF2
+P 3450 6050
+F 0 "D3" H 3450 6150 40  0000 C CNN
+F 1 "DIODE" H 3450 5950 40  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 3450 6050 60  0001 C CNN
+F 3 "" H 3450 6050 60  0000 C CNN
+	1    3450 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D2
+U 1 1 54D56D29
+P 2450 6050
+F 0 "D2" H 2450 6150 40  0000 C CNN
+F 1 "DIODE" H 2450 5950 40  0000 C CNN
+F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 2450 6050 60  0001 C CNN
+F 3 "" H 2450 6050 60  0000 C CNN
+	1    2450 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 6250 3450 6500
+Connection ~ 3450 6500
+Wire Wire Line
+	2450 6250 2450 6400
+Connection ~ 2450 6400
+$Comp
+L +5V #PWR08
+U 1 1 54D57D02
+P 3450 5700
+F 0 "#PWR08" H 3450 5790 20  0001 C CNN
+F 1 "+5V" H 3450 5790 30  0000 C CNN
+F 2 "" H 3450 5700 60  0000 C CNN
+F 3 "" H 3450 5700 60  0000 C CNN
+	1    3450 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR09
+U 1 1 54D57D16
+P 2450 5700
+F 0 "#PWR09" H 2450 5790 20  0001 C CNN
+F 1 "+5V" H 2450 5790 30  0000 C CNN
+F 2 "" H 2450 5700 60  0000 C CNN
+F 3 "" H 2450 5700 60  0000 C CNN
+	1    2450 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5700 2450 5850
+Wire Wire Line
+	3450 5700 3450 5850
+NoConn ~ 2450 3700
+NoConn ~ 2450 3800
+NoConn ~ 2450 3900
+NoConn ~ 2450 4000
+NoConn ~ 2450 4400
+NoConn ~ 2450 4900
+NoConn ~ 2450 5000
+NoConn ~ 2450 5100
+NoConn ~ 4350 5100
+NoConn ~ 4350 5000
+NoConn ~ 4350 4900
+NoConn ~ 4350 4800
+NoConn ~ 4350 4200
+NoConn ~ 4350 4100
+NoConn ~ 4350 4000
+NoConn ~ 4350 3900
+NoConn ~ 4350 3800
+NoConn ~ 4350 3700
+NoConn ~ 4350 3600
+NoConn ~ 4350 3500
+NoConn ~ 4350 3400
+NoConn ~ 4350 3300
+NoConn ~ 3300 3000
+NoConn ~ 3300 2900
+NoConn ~ 3300 2800
+NoConn ~ 4350 2800
+NoConn ~ 4350 2900
+NoConn ~ 4350 3000
+$EndSCHEMATC

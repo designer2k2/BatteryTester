@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by Cvpcb (2014-12-04 BZR 5312)-product   date = 06.02.2015 21:34:48
+
+BeginCmp
+TimeStamp = /54D52CC8;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Capacitors_ThroughHole:Capacitor4x3RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D14562;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D12A9B;
+Reference = P1;
+ValeurCmp = CONN_01X02;
+IdModule  = Terminal_Blocks:TerminalBlock_WAGO-804_RM5mm_2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D12510;
+Reference = Q1;
+ValeurCmp = MOSFET_N;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D1253F;
+Reference = Q2;
+ValeurCmp = MOSFET_N;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D1258E;
+Reference = Q3;
+ValeurCmp = MOSFET_N;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D125ED;
+Reference = Q4;
+ValeurCmp = MOSFET_N;
+IdModule  = Transistors_TO-220:TO-220_FET-GDS_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D13A9B;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D13B2C;
+Reference = R2;
+ValeurCmp = 5k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D12C43;
+Reference = R3;
+ValeurCmp = 100k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CBA8AA;
+Reference = R4;
+ValeurCmp = 3.9;
+IdModule  = Resistors_ThroughHole:Resistor_Cement_Vertical_LargePads_KOA-BGR-5N-7N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D12C90;
+Reference = R5;
+ValeurCmp = 100k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CBA6F9;
+Reference = R6;
+ValeurCmp = 3.9;
+IdModule  = Resistors_ThroughHole:Resistor_Cement_Vertical_LargePads_KOA-BGR-5N-7N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D12CB1;
+Reference = R7;
+ValeurCmp = 100k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CBA74A;
+Reference = R8;
+ValeurCmp = 3.9;
+IdModule  = Resistors_ThroughHole:Resistor_Cement_Vertical_LargePads_KOA-BGR-5N-7N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D12CDA;
+Reference = R9;
+ValeurCmp = 100k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CBA867;
+Reference = R10;
+ValeurCmp = 3.9;
+IdModule  = Resistors_ThroughHole:Resistor_Cement_Vertical_LargePads_KOA-BGR-5N-7N;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CBA4BC;
+Reference = SHIELD1;
+ValeurCmp = ARDUINO_SHIELD;
+IdModule  = FT:ARDUINO_SHIELD;
+EndCmp
+
+EndListe
