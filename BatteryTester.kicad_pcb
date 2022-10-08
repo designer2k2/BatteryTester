@@ -36,8 +36,9 @@
 
   (setup
     (pad_to_mask_clearance 0)
+    (aux_axis_origin 148.59 104.14)
     (pcbplotparams
-      (layerselection 0x00010f0_80000001)
+      (layerselection 0x00010f0_ffffffff)
       (disableapertmacros false)
       (usegerberextensions true)
       (usegerberattributes true)
@@ -67,7 +68,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "gerber/")
     )
   )
 
@@ -196,14 +197,14 @@
     (fp_line (start 3.2004 2.19964) (end -0.8001 2.19964) (layer "F.SilkS") (width 0.15) (tstamp e233ecbf-c942-4585-9e43-a1cb32487950))
     (fp_line (start 3.2004 -0.39878) (end 1.80086 -0.39878) (layer "F.SilkS") (width 0.15) (tstamp fbd976b7-43b5-4830-9353-96eff2a864c5))
     (fp_arc (start 2.40284 4.59994) (mid 2.650392 5.201176) (end 2.4003 5.80136) (layer "F.SilkS") (width 0.15) (tstamp 07c6b959-c577-40ef-a772-494e78b5c811))
-    (fp_arc (start 5.8509 -4.50088) (mid 5.093811 -5.268985) (end 5.1016 -6.34746) (layer "F.SilkS") (width 0.15) (tstamp 0b5d73d9-687a-4241-86b1-a2cb171a7702))
+    (fp_arc (start 5.8509 -4.50088) (mid 5.093801 -5.26898) (end 5.1016 -6.34746) (layer "F.SilkS") (width 0.15) (tstamp 0b5d73d9-687a-4241-86b1-a2cb171a7702))
     (fp_arc (start 7.40284 4.59994) (mid 7.650392 5.201176) (end 7.4003 5.80136) (layer "F.SilkS") (width 0.15) (tstamp 0fa9ef82-51fb-4cb5-bcd2-944d5120506d))
     (fp_arc (start 0 4.60248) (mid 1.19888 4.105888) (end 2.39776 4.60248) (layer "F.SilkS") (width 0.15) (tstamp 11d303e7-9658-490c-9995-47a3fd261d2d))
     (fp_arc (start 7.60096 5.40004) (mid 6.200676 5.981545) (end 4.79934 5.40258) (layer "F.SilkS") (width 0.15) (tstamp 18d60868-6f2d-4e3a-ac1b-d4a53193f811))
     (fp_arc (start 5 5.79882) (mid 4.751704 5.19938) (end 5 4.59994) (layer "F.SilkS") (width 0.15) (tstamp 18f4b890-fd90-4e4f-91c0-610fcb842c10))
     (fp_arc (start 0 5.79882) (mid -0.248296 5.19938) (end 0 4.59994) (layer "F.SilkS") (width 0.15) (tstamp 277122d5-acc5-403d-bfcc-d054da17dbab))
     (fp_arc (start 7.4003 5.79882) (mid 6.200676 6.297208) (end 5 5.80136) (layer "F.SilkS") (width 0.15) (tstamp 479c23a5-e5e1-4cc2-ab31-9dff8dac9e18))
-    (fp_arc (start 0.8509 -4.50088) (mid 0.093811 -5.268985) (end 0.1016 -6.34746) (layer "F.SilkS") (width 0.15) (tstamp 5aa288d5-475e-4c57-a96d-ab931d78988c))
+    (fp_arc (start 0.8509 -4.50088) (mid 0.093801 -5.26898) (end 0.1016 -6.34746) (layer "F.SilkS") (width 0.15) (tstamp 5aa288d5-475e-4c57-a96d-ab931d78988c))
     (fp_arc (start 0.39878 -4.8006) (mid -0.013952 -5.800616) (end 0.40132 -6.79958) (layer "F.SilkS") (width 0.15) (tstamp 5ea867e6-e136-48be-864a-ce1bdf7e1901))
     (fp_arc (start 5.39878 -4.8006) (mid 4.986048 -5.800616) (end 5.40132 -6.79958) (layer "F.SilkS") (width 0.15) (tstamp 6a9828e2-717d-443b-a63c-83da135a6d23))
     (fp_arc (start 2.4003 5.79882) (mid 1.200676 6.297208) (end 0 5.80136) (layer "F.SilkS") (width 0.15) (tstamp 7df22b34-0ded-4e99-96d9-9d69e162e239))
